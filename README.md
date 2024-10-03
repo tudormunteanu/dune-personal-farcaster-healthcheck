@@ -93,6 +93,14 @@ It made me appreciate Farcaster even more.
 
 Try it with your name. You might learn something new about how you use Farcaster.
 
+---
+
+This Dune dashboard is now pinned in a tab in my browser to check regularly.
+
+In 2024, not many social platforms allow this level of introspection.
+
+For posterity, the queries now live in GitHub too: https://github.com/tudormunteanu/dune-personal-farcaster-healthcheck
+
 
 ### Launch plan
 
@@ -102,7 +110,7 @@ Live at: https://dune.com/tudorizer/personal-farcaster-healthcheck
 - [x] post on /dune; https://warpcast.com/tudorizer/0x56829b2d
 - [ ] write about it on /paragraph
 - [ ] post on /build
-- [ ] post on /data
+- [x] post on /data; https://warpcast.com/tudorizer/0xf14dd96a
 
 
 # Post launch analysis

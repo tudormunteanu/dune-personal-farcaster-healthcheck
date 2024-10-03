@@ -23,6 +23,7 @@ Build a dashboard that gives an overview of one's Farcaster activity. Theoretica
 
 Given the following table scheme and sample data, 
 table with sample data:
+```CSV
 fid, hash, parent_hash
 1, 0x123, null
 2, 0x456, 0x123
@@ -30,24 +31,30 @@ fid, hash, parent_hash
 6, 0x890, null
 9, 0x135, 0x890
 6, 0x246, 0x135
+```
 
 Write an SQL query to get the longest thread for a certain fid. Here are two examples:
 
 1. longest thread for fid 9: the one started by 0x890, because it has 3 entries and has the following tree:
 
+```
 0x890
 0x135
 0x246
+```
 
 2. longest thread for fid 2: the one started by 0x123, because it has 2 entries and has the following tree:
 
+```
 0x123
 0x456
+```
 
 ### Exercise 2
 
 Given the following table scheme and sample data, 
 table with sample data:
+```CSV
 fid, hash, parent_hash
 1, 0x123, null
 2, 0x456, 0x123
@@ -56,6 +63,7 @@ fid, hash, parent_hash
 9, 0x135, 0x890
 6, 0x246, 0x135
 9, 0x357, 0x246
+```
 
 Write an SQL query to get the highest number of replies created by a single fid (user) in a single thread. Here is an example:
 
@@ -67,7 +75,6 @@ Write an SQL query to get the highest number of replies created by a single fid 
 
 ## Launch copy
 
----
 1/3 Have you seen this Farcaster Healthcheck Dashboard? 
 
 It differs from most stats tools, because it focuses on the main driver for engagement: your own contributions. 
